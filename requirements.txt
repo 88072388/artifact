@@ -1,0 +1,14 @@
+﻿# Pinned stack verified on torch 2.5.1+cu124 / vLLM 0.6.6.
+# Do NOT upgrade these: numpy must stay <2 because vLLM 0.6.6 requires it.
+torch==2.5.1
+transformers==4.46.3
+peft==0.13.2
+accelerate==1.1.1
+datasets==3.1.0
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.3
+scikit-learn==1.5.2
+pyarrow==17.0.0
+bitsandbytes==0.50.2
+vllm==0.6.6

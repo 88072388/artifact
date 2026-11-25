@@ -1,0 +1,34 @@
+{
+  "total_raw": 10112,
+  "dropped_backadj_no_reasoning": 1580,
+  "with_reasoning": 8532,
+  "dropped_ambiguous": 229,
+  "step5_repaired": 3747,
+  "usable": 8303,
+  "train": 5781,
+  "val": 528,
+  "indist": 1089,
+  "unseen_struct": 905,
+  "scrambled": 5781,
+  "heldout_stories": [
+    "celebrity",
+    "college_wage",
+    "gender_pay",
+    "hospitalization",
+    "nonsense1",
+    "nonsense2",
+    "tax_smoke_birthWeight",
+    "water_cholera"
+  ],
+  "probes": 471,
+  "probe_items": 157,
+  "probe_by_type": {
+    "ate": 80,
+    "ett": 77
+  },
+  "probe_by_source": {
+    "test": 46,
+    "heldout": 111
+  },
+  "seed": 42
+}

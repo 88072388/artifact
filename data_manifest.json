@@ -1,0 +1,63 @@
+{
+  "source_datasets": {
+    "CLadder": "https://github.com/causalNLP/cladder (cladder-v1.zip, MIT)",
+    "CounterBench": "https://huggingface.co/datasets/CounterBench/CounterBench (MIT)"
+  },
+  "pipeline": "python src/build_v2.py && python src/build_counterbench.py",
+  "filters": {
+    "raw_questions": 10112,
+    "dropped_backadj_no_reasoning": 1580,
+    "dropped_ambiguous_label": 229,
+    "usable": 8303,
+    "by_query_type_dropped_backadj": "backadj only (reasoning field is null)",
+    "ambiguous_rule": "numeric ground truth with |gt| < 0.01; det-counterfactual excluded because its ground truth is a probability, not an effect size"
+  },
+  "files": {
+    "sft_answer_train.jsonl": {
+      "rows": 5781,
+      "sha256": "7d3f30c181b9d1e19207f5cf1b45057e46f82663a8abb816fd167e52bb21a89d",
+      "bytes": 4429498
+    },
+    "sft_process_train.jsonl": {
+      "rows": 5781,
+      "sha256": "86c372d564c05a19c8162bdcae69d7ddf8a46a1c15b473c6626a84aada48a9bb",
+      "bytes": 8883819
+    },
+    "sft_scrambled_train.jsonl": {
+      "rows": 5781,
+      "sha256": "98e5de0887ac523967a38da720ca0c6ae8470423cc7240d83c68d312c97671cb",
+      "bytes": 8991770
+    },
+    "val.jsonl": {
+      "rows": 528,
+      "sha256": "724eb8d6af2223a23ccd6c1d44138319b8eadd26d994ba4d0a8c74ab226c09dc",
+      "bytes": 805715
+    },
+    "eval_indist.jsonl": {
+      "rows": 1089,
+      "sha256": "7bdde552da20c2fc0e539f1d528097ccf2e4d4d8f474775a6f59084abd9d085c",
+      "bytes": 1818684
+    },
+    "eval_unseen_struct.jsonl": {
+      "rows": 905,
+      "sha256": "ca0453764f1bb3b03efd9efbef8f5056334d224c33aaf749fc3d16e1fc00c503",
+      "bytes": 1402593
+    },
+    "eval_numremoved.jsonl": {
+      "rows": 1499,
+      "sha256": "af678f45c2a2621fd60e6d8958a3069d1a372d53aff2c9e3dbc3de403fa2dee0",
+      "bytes": 2144717
+    },
+    "eval_counterbench.jsonl": {
+      "rows": 1200,
+      "sha256": "456fda00e3d84450589f1fcab4314790be74771ff835d9c9294961c028605b36",
+      "bytes": 1632128
+    },
+    "probes.jsonl": {
+      "rows": 471,
+      "sha256": "0ae9a0dd0f2038328690aa6af8d8b68744df8ff8005d5b96cb1c8a688374e1e1",
+      "bytes": 731946
+    }
+  },
+  "note": "Re-running build_v2.py on the public CLadder file must reproduce these row counts and hashes exactly."
+}

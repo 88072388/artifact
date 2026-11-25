@@ -1,0 +1,632 @@
+[
+ {
+  "id": 21788,
+  "query_type": "ate",
+  "step": "step0",
+  "auto_score": 1,
+  "gold_step": "Let V1 = tijv; X = xevo; Y = gyzp.",
+  "model_step": "Let V1 = tijv; X = xevo; Y = gyzp.",
+  "note": null
+ },
+ {
+  "id": 21865,
+  "query_type": "marginal",
+  "step": "step0",
+  "auto_score": 1,
+  "gold_step": "Let V1 = tijw; X = xevo; V3 = tijv; Y = gyzp.",
+  "model_step": "Let V1 = tijw; X = xevo; V3 = tijv; Y = gyzp.",
+  "note": null
+ },
+ {
+  "id": 21968,
+  "query_type": "ett",
+  "step": "step0",
+  "auto_score": 1,
+  "gold_step": "Let V2 = tijw; X = xevo; V3 = tijv; Y = gyzp.",
+  "model_step": "Let V2 = tijw; X = xevo; V3 = tijv; Y = gyzp.",
+  "note": null
+ },
+ {
+  "id": 29896,
+  "query_type": "det-counterfactual",
+  "step": "step0",
+  "auto_score": 1,
+  "gold_step": "Let V1 = tijv; X = xevo; Y = gyzp.",
+  "model_step": "Let V1 = tijv; X = xevo; Y = gyzp.",
+  "note": null
+ },
+ {
+  "id": 15108,
+  "query_type": "ate",
+  "step": "step0",
+  "auto_score": 1,
+  "gold_step": "Let V2 = water company; V1 = poverty; X = liking spicy food; Y = cholera.",
+  "model_step": "Let V2 = water company; V1 = poverty; X = liking spicy food; Y = cholera.",
+  "note": null
+ },
+ {
+  "id": 17010,
+  "query_type": "correlation",
+  "step": "step0",
+  "auto_score": 0.25,
+  "gold_step": "Let V2 = proximity to a college; V1 = unobserved confounders; X = education level; Y = foot size.",
+  "model_step": "Let V3 = unobserved confounders; X = proximity to a college; V2 = education level; Y = foot size.",
+  "note": null
+ },
+ {
+  "id": 6335,
+  "query_type": "exp_away",
+  "step": "step0",
+  "auto_score": 0.333,
+  "gold_step": "Let Y = talent; X = appearance; V3 = fame.",
+  "model_step": "Let V2 = talent; X = appearance; Y = fame.",
+  "note": null
+ },
+ {
+  "id": 25672,
+  "query_type": "exp_away",
+  "step": "step0",
+  "auto_score": 0.333,
+  "gold_step": "Let Y = kwoz; X = kwox; V3 = swoq.",
+  "model_step": "Let Y = kwoz; X = swoq.",
+  "note": null
+ },
+ {
+  "id": 21837,
+  "query_type": "ett",
+  "step": "step0",
+  "auto_score": 0,
+  "gold_step": "Let X = xevo; V2 = tijv; Y = gyzp.",
+  "model_step": "Let V2 = xevoo; V1 = tijvo; X = gyzp.",
+  "note": null
+ },
+ {
+  "id": 17891,
+  "query_type": "marginal",
+  "step": "step0",
+  "auto_score": 0.333,
+  "gold_step": "Let Y = broken bones; X = drinking coffee; V3 = hospitalization status.",
+  "model_step": "Let V2 = broken bones; X = drinking coffee; Y = hospitalization status.",
+  "note": null
+ },
+ {
+  "id": 26269,
+  "query_type": "ate",
+  "step": "step1",
+  "auto_score": 1,
+  "gold_step": "V1->X,V2->X,V1->Y,X->Y",
+  "model_step": "V1->X,V2->X,V1->Y,X->Y",
+  "note": null
+ },
+ {
+  "id": 9438,
+  "query_type": "correlation",
+  "step": "step1",
+  "auto_score": 1,
+  "gold_step": "V1->X,V2->X,V1->Y,X->Y",
+  "model_step": "V1->X,V2->X,V1->Y,X->Y",
+  "note": null
+ },
+ {
+  "id": 30013,
+  "query_type": "det-counterfactual",
+  "step": "step1",
+  "auto_score": 1,
+  "gold_step": "X->Y,V2->Y",
+  "model_step": "X->Y,V2->Y",
+  "note": null
+ },
+ {
+  "id": 22079,
+  "query_type": "marginal",
+  "step": "step1",
+  "auto_score": 1,
+  "gold_step": "X->Y,V2->Y",
+  "model_step": "X->Y,V2->Y",
+  "note": null
+ },
+ {
+  "id": 7390,
+  "query_type": "correlation",
+  "step": "step1",
+  "auto_score": 1,
+  "gold_step": "X->V3,V2->V3,X->Y,V2->Y,V3->Y",
+  "model_step": "X->V3,V2->V3,X->Y,V2->Y,V3->Y",
+  "note": null
+ },
+ {
+  "id": 19731,
+  "query_type": "correlation",
+  "step": "step1",
+  "auto_score": 0.444,
+  "gold_step": "V1->X,V2->X,V1->Y,X->Y",
+  "model_step": "V1->V3,V1->Y,X->V3,X->Y,V3->Y",
+  "note": null
+ },
+ {
+  "id": 2712,
+  "query_type": "marginal",
+  "step": "step1",
+  "auto_score": 0,
+  "gold_step": "X->V3,Y->V3",
+  "model_step": "X->Y,V2->Y",
+  "note": null
+ },
+ {
+  "id": 19730,
+  "query_type": "marginal",
+  "step": "step1",
+  "auto_score": 0.444,
+  "gold_step": "V1->X,V2->X,V1->Y,X->Y",
+  "model_step": "V1->V3,V1->Y,X->V3,X->Y,V3->Y",
+  "note": null
+ },
+ {
+  "id": 17854,
+  "query_type": "collider_bias",
+  "step": "step1",
+  "auto_score": 0,
+  "gold_step": "X->V3,Y->V3",
+  "model_step": "X->Y,V2->Y",
+  "note": null
+ },
+ {
+  "id": 17827,
+  "query_type": "collider_bias",
+  "step": "step1",
+  "auto_score": 0,
+  "gold_step": "X->V3,Y->V3",
+  "model_step": "X->Y,V2->Y",
+  "note": null
+ },
+ {
+  "id": 15090,
+  "query_type": "marginal",
+  "step": "step2",
+  "auto_score": 1,
+  "gold_step": "P(Y)",
+  "model_step": "P(Y)",
+  "note": null
+ },
+ {
+  "id": 25996,
+  "query_type": "marginal",
+  "step": "step2",
+  "auto_score": 1,
+  "gold_step": "P(Y)",
+  "model_step": "P(Y)",
+  "note": null
+ },
+ {
+  "id": 20714,
+  "query_type": "det-counterfactual",
+  "step": "step2",
+  "auto_score": 0.938,
+  "gold_step": "Y_{X=1} = 0 | V2=1, V1=1",
+  "model_step": "Y{X=1} = 0 | V1=1, X=1",
+  "note": "pred conditions on X=1 where the reference conditions on V2=1; different estimand"
+ },
+ {
+  "id": 2690,
+  "query_type": "exp_away",
+  "step": "step2",
+  "auto_score": 0.578,
+  "gold_step": "P(Y = 1 | X = 1, V3 = 1] - P(Y = 1 | V3 = 1)",
+  "model_step": "P(Y{X=1} - Y{X=0} | X=1)",
+  "note": "pred writes a potential-outcome difference; reference is a difference of two conditional probabilities"
+ },
+ {
+  "id": 12993,
+  "query_type": "nde",
+  "step": "step2",
+  "auto_score": 1,
+  "gold_step": "E[Y_{X=1, V3=0} - Y_{X=0, V3=0}]",
+  "model_step": "E[Y{X=1, V3=0} - Y{X=0, V3=0}]",
+  "note": null
+ },
+ {
+  "id": 21424,
+  "query_type": "correlation",
+  "step": "step2",
+  "auto_score": 0.444,
+  "gold_step": "P(Y | X)",
+  "model_step": "P(Y = 1 | X = 1) - P(Y = 1 | X = 0)",
+  "note": null
+ },
+ {
+  "id": 26411,
+  "query_type": "correlation",
+  "step": "step2",
+  "auto_score": 0.444,
+  "gold_step": "P(Y | X)",
+  "model_step": "P(Y = 1 | X = 1) - P(Y = 1 | X = 0)",
+  "note": null
+ },
+ {
+  "id": 21441,
+  "query_type": "correlation",
+  "step": "step2",
+  "auto_score": 0.444,
+  "gold_step": "P(Y | X)",
+  "model_step": "P(Y = 1 | X = 1) - P(Y = 1 | X = 0)",
+  "note": null
+ },
+ {
+  "id": 17865,
+  "query_type": "exp_away",
+  "step": "step2",
+  "auto_score": 0.489,
+  "gold_step": "P(Y = 1 | X = 1, V3 = 1] - P(Y = 1 | V3 = 1)",
+  "model_step": "E[Y{X=1} - Y{X=0} | X = 1]",
+  "note": null
+ },
+ {
+  "id": 21433,
+  "query_type": "correlation",
+  "step": "step2",
+  "auto_score": 0.444,
+  "gold_step": "P(Y | X)",
+  "model_step": "P(Y = 1 | X = 1) - P(Y = 1 | X = 0)",
+  "note": null
+ },
+ {
+  "id": 26113,
+  "query_type": "ate",
+  "step": "step3",
+  "auto_score": 0.956,
+  "gold_step": "\\sum_{V1=v} P(V1=v)*[P(Y=1|V1=v,X=1) - P(Y=1|V1=v, X=0)]",
+  "model_step": "\\sum{V1=v} P(V1=v|X=1)[P(Y=1|V1=v,X=1) - P(Y=1|V1=v, X=0)]",
+  "note": "pred conditions the weight on X=1 (P(V1=v|X=1)) instead of the marginal P(V1=v); token-F1 does not see it"
+ },
+ {
+  "id": 12908,
+  "query_type": "marginal",
+  "step": "step3",
+  "auto_score": 1,
+  "gold_step": "P(Y | X=1)*P(X=1) + P(Y | X=0)*P(X=0)",
+  "model_step": "P(Y | X=1)P(X=1) + P(Y | X=0)P(X=0)",
+  "note": null
+ },
+ {
+  "id": 21812,
+  "query_type": "ett",
+  "step": "step3",
+  "auto_score": 1,
+  "gold_step": "\\sum_{V1=v} P(V1=v|X=1)*[P(Y=1|V1=v,X=1) - P(Y=1|V1=v, X=0)]",
+  "model_step": "\\sum{V1=v} P(V1=v|X=1)[P(Y=1|V1=v,X=1) - P(Y=1|V1=v, X=0)]",
+  "note": null
+ },
+ {
+  "id": 17058,
+  "query_type": "correlation",
+  "step": "step3",
+  "auto_score": 1,
+  "gold_step": "P(X = 1, Y = 1)/P(X = 1) - P(X = 0, Y = 1)/P(X = 0)",
+  "model_step": "P(X = 1, Y = 1)/P(X = 1) - P(X = 0, Y = 1)/P(X = 0)",
+  "note": null
+ },
+ {
+  "id": 2535,
+  "query_type": "ett",
+  "step": "step3",
+  "auto_score": 1,
+  "gold_step": "P(Y=1|X=1) - P(Y=1|X=0)",
+  "model_step": "P(Y=1|X=1) - P(Y=1|X=0)",
+  "note": null
+ },
+ {
+  "id": 21642,
+  "query_type": "marginal",
+  "step": "step3",
+  "auto_score": 1,
+  "gold_step": "P(Y | X=1)*P(X=1) + P(Y | X=0)*P(X=0)",
+  "model_step": "P(Y | X=1)P(X=1) + P(Y | X=0)P(X=0)",
+  "note": null
+ },
+ {
+  "id": 16689,
+  "query_type": "collider_bias",
+  "step": "step3",
+  "auto_score": 0.105,
+  "gold_step": "X and Y do not affect each other.",
+  "model_step": "X = 1 | Y = 1: corr(X, V2) = 0.08",
+  "note": null
+ },
+ {
+  "id": 11953,
+  "query_type": "collider_bias",
+  "step": "step3",
+  "auto_score": 0.154,
+  "gold_step": "X and Y do not affect each other.",
+  "model_step": "X = 1 | Y = 1: -0.08",
+  "note": null
+ },
+ {
+  "id": 15125,
+  "query_type": "ate",
+  "step": "step3",
+  "auto_score": 0.406,
+  "gold_step": "[P(Y=1|V2=1)-P(Y=1|V2=0)]/[P(X=1|V2=1)-P(X=1|V2=0)]",
+  "model_step": "X = 1, Y = 1 - Y = 0.61; X = 0, Y = 0.50",
+  "note": null
+ },
+ {
+  "id": 15070,
+  "query_type": "ate",
+  "step": "step3",
+  "auto_score": 0.339,
+  "gold_step": "[P(Y=1|V2=1)-P(Y=1|V2=0)]/[P(X=1|V2=1)-P(X=1|V2=0)]",
+  "model_step": "X = 1, Y = 0.69; X = 0, Y = 0.59",
+  "note": null
+ },
+ {
+  "id": 29986,
+  "query_type": "det-counterfactual",
+  "step": "step4",
+  "auto_score": 1,
+  "gold_step": "V1 = 0\nX = V1\nV3 = not X\nY = X or V3",
+  "model_step": "V1 = 0 X = not V3 V3 = X or V1 Y = X and V3",
+  "note": "logic step, not numbers: pred has X=not V3 and Y=X and V3 against X=V1 and Y=X or V3"
+ },
+ {
+  "id": 25995,
+  "query_type": "ett",
+  "step": "step4",
+  "auto_score": 1,
+  "gold_step": "P(Y=1 | X=0) = 0.27\nP(Y=1 | X=1) = 0.65",
+  "model_step": "P(Y=1 | X=0) = 0.27 P(Y=1 | X=1) = 0.65",
+  "note": null
+ },
+ {
+  "id": 7349,
+  "query_type": "ate",
+  "step": "step4",
+  "auto_score": 1,
+  "gold_step": "P(Y=1 | X=0) = 0.28\nP(Y=1 | X=1) = 0.51",
+  "model_step": "P(Y=1 | X=0) = 0.28 P(Y=1 | X=1) = 0.51",
+  "note": null
+ },
+ {
+  "id": 21878,
+  "query_type": "marginal",
+  "step": "step4",
+  "auto_score": 1,
+  "gold_step": "P(X=1) = 0.54\nP(Y=1 | X=0) = 0.58\nP(Y=1 | X=1) = 0.58",
+  "model_step": "P(X=1) = 0.54 P(Y=1 | X=0) = 0.58 P(Y=1 | X=1) = 0.58",
+  "note": null
+ },
+ {
+  "id": 21629,
+  "query_type": "ate",
+  "step": "step4",
+  "auto_score": 1,
+  "gold_step": "P(Y=1 | V1=0, X=0) = 0.67\nP(Y=1 | V1=0, X=1) = 0.10\nP(Y=1 | V1=1, X=0) = 0.84\nP(Y=1 | V1=1, X=1) = 0.14\nP(V1=1) = 0.90",
+  "model_step": "P(Y=1 | V1=0, X=0) = 0.67 P(Y=1 | V1=0, X=1) = 0.10 P(Y=1 | V1=1, X=0) = 0.84 P(Y=1 | V1=1, X=1) = 0.14 P(V1=1) = 0.90",
+  "note": null
+ },
+ {
+  "id": 21285,
+  "query_type": "marginal",
+  "step": "step4",
+  "auto_score": 1,
+  "gold_step": "P(X=1) = 0.32\nP(Y=1 | X=0) = 0.07\nP(Y=1 | X=1) = 0.07",
+  "model_step": "P(X=1) = 0.32 P(Y=1 | X=0) = 0.07 P(Y=1 | X=1) = 0.07",
+  "note": null
+ },
+ {
+  "id": 7489,
+  "query_type": "exp_away",
+  "step": "step4",
+  "auto_score": 0.444,
+  "gold_step": "P(X=1) = 0.84\nP(Y=1 | X=0, V3=0) = 0.92\nP(Y=1 | X=0, V3=1) = 0.71\nP(Y=1 | X=1, V3=0) = 0.88\nP(Y=1 | X=1, V3=1) = 0.58",
+  "model_step": "P(V2=1 | X=0, Y=0) = 0.92 P(V2=1 | X=0, Y=1) = 0.71 P(V2=1 | X=1, Y=0) = 0.88 P(V2=1 | X=1, Y=1) = 0.58",
+  "note": null
+ },
+ {
+  "id": 16738,
+  "query_type": "exp_away",
+  "step": "step4",
+  "auto_score": 0.4,
+  "gold_step": "P(X=1) = 0.81\nP(Y=1 | X=0, V3=0) = 0.98\nP(Y=1 | X=0, V3=1) = 0.91\nP(Y=1 | X=1, V3=0) = 0.97\nP(Y=1 | X=1, V3=1) = 0.87",
+  "model_step": "P(Y=1=1) = 0.81 P(V2=1, Y=0) = 0.09 P(V2=1, Y=1) = 0.87",
+  "note": null
+ },
+ {
+  "id": 15133,
+  "query_type": "ate",
+  "step": "step4",
+  "auto_score": 0.222,
+  "gold_step": "P(Y=1 | V2=0) = 0.72\nP(Y=1 | V2=1) = 0.61\nP(X=1 | V2=0) = 0.06\nP(X=1 | V2=1) = 0.42",
+  "model_step": "P(Y=1 | X=1) - P(Y=1 | X=0) = 0.72 - 0.61 = 0.11",
+  "note": null
+ },
+ {
+  "id": 20715,
+  "query_type": "det-counterfactual",
+  "step": "step4",
+  "auto_score": 0,
+  "gold_step": "V2 = 0\nV1 = 0\nX = V1 or V2\nY = V1 or X",
+  "model_step": "V3 = V1 or X Y = V3",
+  "note": null
+ },
+ {
+  "id": 17785,
+  "query_type": "ett",
+  "step": "step5",
+  "auto_score": 1,
+  "gold_step": "0.34 - 0.38 = -0.05",
+  "model_step": "0.34 - 0.38 = -0.04",
+  "note": null
+ },
+ {
+  "id": 13024,
+  "query_type": "marginal",
+  "step": "step5",
+  "auto_score": 1,
+  "gold_step": "0.05*0.14 - 0.95*0.14 = 0.14",
+  "model_step": "0.050.14 - 0.950.14 = 0.14",
+  "note": null
+ },
+ {
+  "id": 17025,
+  "query_type": "marginal",
+  "step": "step5",
+  "auto_score": 1,
+  "gold_step": "0.23*0.29 - 0.77*0.79 = 0.68",
+  "model_step": "0.230.29 - 0.770.79 = 0.69",
+  "note": null
+ },
+ {
+  "id": 21737,
+  "query_type": "ate",
+  "step": "step5",
+  "auto_score": 1,
+  "gold_step": "0.67 - 0.48 = 0.19",
+  "model_step": "0.67 - 0.48 = 0.19",
+  "note": null
+ },
+ {
+  "id": 10317,
+  "query_type": "det-counterfactual",
+  "step": "step5",
+  "auto_score": 1,
+  "gold_step": "Y = 0 = 0 and 0",
+  "model_step": "Y = 0",
+  "note": null
+ },
+ {
+  "id": 25862,
+  "query_type": "nde",
+  "step": "step5",
+  "auto_score": 0,
+  "gold_step": "0.10 * (0.52 - 0.19) * 0.30 + 0.90 * (0.68 - 0.45) * 0.01 = -0.02",
+  "model_step": "0.30  (0.52 - 0.45) + 0.88  (0.19 - 0.45) = -0.11",
+  "note": null
+ },
+ {
+  "id": 26413,
+  "query_type": "ate",
+  "step": "step5",
+  "auto_score": 0,
+  "gold_step": "0.67 * (0.90 - 0.86) 0.33 * (0.93 - 0.73) = 0.09",
+  "model_step": "0.67  (0.90 - 0.86) + 0.33  (0.93 - 0.73) = 0.14",
+  "note": null
+ },
+ {
+  "id": 21784,
+  "query_type": "marginal",
+  "step": "step5",
+  "auto_score": 0,
+  "gold_step": "0.24*0.66 - 0.76*0.49 = 0.53",
+  "model_step": "0.240.66 - 0.760.49 = 0.51",
+  "note": null
+ },
+ {
+  "id": 7382,
+  "query_type": "correlation",
+  "step": "step5",
+  "auto_score": 0,
+  "gold_step": "0.05/0.13 - 0.41/0.87 = -0.08",
+  "model_step": "0.05/0.13 - 0.41/0.87 = -0.31",
+  "note": null
+ },
+ {
+  "id": 1856,
+  "query_type": "ate",
+  "step": "step5",
+  "auto_score": 0,
+  "gold_step": "(0.73 - 0.51) / (0.88 - 0.53) = 0.62",
+  "model_step": "0.73 - 0.53 = 0.20",
+  "note": null
+ },
+ {
+  "id": 7313,
+  "query_type": "ett",
+  "step": "end",
+  "auto_score": 1,
+  "gold_step": "-0.15 < 0   (this item's correct answer: no)",
+  "model_step": "-0.15 < 0",
+  "note": null
+ },
+ {
+  "id": 19906,
+  "query_type": "correlation",
+  "step": "end",
+  "auto_score": 1,
+  "gold_step": "0.45 > 0   (this item's correct answer: yes)",
+  "model_step": "0.04 > 0",
+  "note": null
+ },
+ {
+  "id": 21968,
+  "query_type": "ett",
+  "step": "end",
+  "auto_score": 1,
+  "gold_step": "0.43 > 0   (this item's correct answer: yes)",
+  "model_step": "0.44 > 0",
+  "note": null
+ },
+ {
+  "id": 9344,
+  "query_type": "correlation",
+  "step": "end",
+  "auto_score": 1,
+  "gold_step": "0.31 > 0   (this item's correct answer: yes)",
+  "model_step": "0.27 > 0",
+  "note": null
+ },
+ {
+  "id": 15174,
+  "query_type": "correlation",
+  "step": "end",
+  "auto_score": 1,
+  "gold_step": "-0.66 < 0   (this item's correct answer: no)",
+  "model_step": "-0.37 < 0",
+  "note": null
+ },
+ {
+  "id": 11953,
+  "query_type": "collider_bias",
+  "step": "end",
+  "auto_score": 0,
+  "gold_step": "yes   (this item's correct answer: yes)",
+  "model_step": "no",
+  "note": null
+ },
+ {
+  "id": 16739,
+  "query_type": "collider_bias",
+  "step": "end",
+  "auto_score": 0,
+  "gold_step": "no   (this item's correct answer: no)",
+  "model_step": "0.24 > 0",
+  "note": null
+ },
+ {
+  "id": 21447,
+  "query_type": "correlation",
+  "step": "end",
+  "auto_score": 0,
+  "gold_step": "-0.17 < 0   (this item's correct answer: no)",
+  "model_step": "0.03 > 0",
+  "note": null
+ },
+ {
+  "id": 19831,
+  "query_type": "ate",
+  "step": "end",
+  "auto_score": 0,
+  "gold_step": "0.29 > 0   (this item's correct answer: yes)",
+  "model_step": "-0.41 < 0",
+  "note": null
+ },
+ {
+  "id": 21961,
+  "query_type": "nie",
+  "step": "end",
+  "auto_score": 0,
+  "gold_step": "0.01 > 0   (this item's correct answer: no)",
+  "model_step": "-0.07 < 0",
+  "note": null
+ }
+]
